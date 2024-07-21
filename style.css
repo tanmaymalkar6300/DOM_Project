@@ -1,0 +1,37 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7eff5;
+}
+.container{
+    text-align: center;
+    
+}
+.container  h1{
+    background-color: #222;
+    border-radius: 20px;
+    padding: 10px;
+    color: #ffff;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.color{
+    color: rgb(232, 218, 100);
+    font-size: 20px;
+}
+.btn{
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 20px;
+    border: 2px solid black;
+    outline: none;
+
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #8a8a8a;
+    transition:all .13sec;
+    color: white;
+}
